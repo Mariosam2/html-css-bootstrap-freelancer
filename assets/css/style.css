@@ -1,6 +1,36 @@
+:root {
+    --bg-primary: #1bbd9c;
+    --bg-secondary: #2d3f50;
+    --bg-footer: #3a546d;
+    --text: #212529;
+}
+
+.menu_border {
+    border: 2px solid lightgrey !important;
+}
+
+.menu_icon {
+  filter: brightness(95%) !important;
+}
+
+.ms_bg-primary {
+    background-color: var(--bg-primary);
+}
+
+.ms_bg-secondary {
+    background-color: var(--bg-secondary);
+}
+
+.btn.ms_bg-primary:hover {
+    background-color: var(--bg-primary) !important;
+}
+
+.ms_bg-footer {
+    background-color: var(--bg-footer);
+}
 
 .bar_star {
-    width: 150px;
+    width: 175px;
 }
 
 .bar_star i {
@@ -10,9 +40,17 @@
     
 }
 
+.text_primary {
+    color: var(--bg-primary);
+}
+
+.portfolio .bar_star i, .contact_me .bar_star i, .contact_details{
+    color: var(--bg-secondary);
+}
+
 .bar {
     width: 40%;
-    height: 5px;
+    height: 3px;
     border-radius: 1.2rem;
     
 
@@ -23,5 +61,16 @@
 }
 
 .bar.black {
-    background-color: black;
+    background-color: var(--bg-secondary);
+}
+
+.social {
+    width: 200px;
+}
+
+.social a {
+    width: 2.5rem;
+    height: 2.5rem;
+    object-fit: contain;
+    border: 1px solid white;
 }

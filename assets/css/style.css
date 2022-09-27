@@ -12,9 +12,7 @@ nav a {
     color: white !important;
 }
 
-nav ul li a{
-    transition: all 0.2s ease !important;
-}
+
 
 nav ul li:hover {
     background-color: white;
@@ -24,21 +22,24 @@ nav ul li:hover a{
     color: var(--bg-secondary) !important;
 }
 
-h1.ms_title {
-    font-size: 3.8rem;
-}
 
-h2.ms_title {
-    font-size: 3.2rem;
-}
 
 .menu_border {
-    border: 2px solid lightgrey !important;
+    border: 2px solid lightgrey;
 }
 
 .menu_icon {
   filter: brightness(95%) !important;
 }
+
+.menu_border:focus {
+    box-shadow: none;
+}
+
+.x_button:focus {
+    box-shadow: none;
+}
+
 
 .offcanvas_end {
     top: 0;

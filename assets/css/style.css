@@ -13,6 +13,12 @@
   filter: brightness(95%) !important;
 }
 
+.offcanvas_end {
+    top: 0;
+    right: 0;
+    width: fit-content;
+}
+
 .ms_bg-primary {
     background-color: var(--bg-primary);
 }
@@ -30,7 +36,7 @@
 }
 
 .bar_star {
-    width: 175px;
+    width: 20vw;
 }
 
 .bar_star i {
@@ -49,7 +55,7 @@
 }
 
 .bar {
-    width: 40%;
+    width: 38%;
     height: 3px;
     border-radius: 1.2rem;
     

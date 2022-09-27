@@ -4,6 +4,10 @@
     --bg-footer: #3a546d;
     --text: #212529;
 }
+
+html {
+    font-size: 18px;
+}
 nav a {
     color: white !important;
 }
@@ -18,6 +22,14 @@ nav ul li:hover {
 
 nav ul li:hover a{
     color: var(--bg-secondary) !important;
+}
+
+h1.ms_title {
+    font-size: 3.8rem;
+}
+
+h2.ms_title {
+    font-size: 3.2rem;
 }
 
 .menu_border {

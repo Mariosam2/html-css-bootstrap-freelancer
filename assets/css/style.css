@@ -50,6 +50,25 @@ nav ul li:hover a{
     background-color: var(--bg-footer);
 }
 
+
+.text_primary {
+    color: var(--bg-primary);
+}
+
+.portfolio .bar_star i, .contact_me .bar_star i, .contact_me label{
+    color: var(--bg-secondary);
+}
+
+.contact_me input[type="text"]{
+    line-height: 0;
+
+}
+
+.contact_me input[type="text"]:focus {
+    outline: none;
+}
+
+
 .bar_star {
     width: 20vw;
 }
@@ -59,14 +78,6 @@ nav ul li:hover a{
     left: 50%;
     translate: -50% 50%;
     
-}
-
-.text_primary {
-    color: var(--bg-primary);
-}
-
-.portfolio .bar_star i, .contact_me .bar_star i, .contact_details{
-    color: var(--bg-secondary);
 }
 
 .bar {

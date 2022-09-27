@@ -4,6 +4,21 @@
     --bg-footer: #3a546d;
     --text: #212529;
 }
+nav a {
+    color: white !important;
+}
+
+nav ul li a{
+    transition: all 0.2s ease !important;
+}
+
+nav ul li:hover {
+    background-color: white;
+}
+
+nav ul li:hover a{
+    color: var(--bg-secondary) !important;
+}
 
 .menu_border {
     border: 2px solid lightgrey !important;
